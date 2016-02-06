@@ -1,12 +1,39 @@
-### Version : 0.1.1 (04/Feb/2015)
-- Created Dev Folder
-- Created Convert-Util for various conversions
-  - ConvertTo-HashTable
-  - ConvertTo-JSON
-  - ConvertFrom-JSON
-  - Convert-JSONToXML
-  - Convert-XMLToJSON
+### Version : 0.1.1 [06/Feb/2016]
 
-### Version : 0.1.0 (03/Feb/2015)
-- Initial Version
-- Commited to Github
+##### Features
+- Allow for Defining Multiple JIRA Server Config
+- Allow for Listing of all Available JIRA Server Config
+
+##### Added
+|Function|Purpose|
+|---|---|
+|`Set-Config-JIRAServer`|Set Custom JIRA Server Config|
+|`List-Config-JIRAServer`|List Available JIRA Server Config|
+
+### Version : 0.1.1 [04/Feb/2016]
+
+#### Features
+- Created Convert-Util for various conversions
+
+##### Added
+|Function|Purpose|
+|---|---|
+|`ConvertTo-HashTable`|Convert Object to HashTable|
+|`ConvertTo-JSON`|Convert Object to JSON|
+|`ConvertFrom-JSON`|Convert JSON to HashTable|
+|`Convert-JSONToXML`|Convert JSON to XML|
+|`Convert-XMLToJSON`|Convert XML to JSON|
+
+### Version : 0.1.0 [03/Feb/2016]
+
+##### Added
+- Initial Commit on Github
+
+## Template
+
+### Version : x.y.z [DD/MMM/YYYY]
+##### Features
+##### Added
+##### Enhancements
+##### Bug Fixes
+##### Todo
