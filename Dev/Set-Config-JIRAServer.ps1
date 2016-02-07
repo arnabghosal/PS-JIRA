@@ -47,7 +47,6 @@ function Set-Config-JIRAServer
 
 	if($Config_XML.Name -eq 'Config')
 	{
-
 		if($Config_XML.JIRA_Link)
 		{
 			$Config_XML.JIRA_Link = $JIRA_Link
@@ -59,7 +58,7 @@ function Set-Config-JIRAServer
 			$xml_node.InnerText = $JIRA_Link
 			$Config_XML.AppendChild($xml_node) | Out-Null
 		}
-		Write-Verbose "[$FName] JIRA_Link Node Updated"
+		Write-Verbose "[$FName] JIRA_Link URL Updated"
 
 		$XML_File.Save($Config_File)
 		Write-Verbose "[$FName] Config File Saved"

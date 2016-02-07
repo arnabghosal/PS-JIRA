@@ -11,7 +11,7 @@ function List-Config-JIRAServer
 	}
 	else
 	{
-		$Script:File_List = Get-ChildItem -Path $Base_Folder -Filter "*.xml"
+		$File_List = Get-ChildItem -Path $Base_Folder -Filter "*.xml"
 		if($File_List -eq $null)
 		{
 			throw "[$FName] Config File Not Found. Set JIRA Server Config using 'Set-Config-JIRAServer'"
