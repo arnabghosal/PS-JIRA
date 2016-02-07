@@ -1,4 +1,4 @@
-### Version : 0.1.1 [06/Feb/2016]
+### Version : 0.1.2 - 2016/02/06
 
 ##### Features
 - Allow for Defining Multiple JIRA Server Config
@@ -10,7 +10,7 @@
 |`Set-Config-JIRAServer`|Set Custom JIRA Server Config|
 |`List-Config-JIRAServer`|List Available JIRA Server Config|
 
-### Version : 0.1.1 [04/Feb/2016]
+### Version : 0.1.1 - 2016/02/04
 
 ##### Features
 - Created Convert-Util for various conversions
@@ -24,14 +24,14 @@
 |`Convert-JSONToXML`|Convert JSON to XML|
 |`Convert-XMLToJSON`|Convert XML to JSON|
 
-### Version : 0.1.0 [03/Feb/2016]
+### Version : 0.1.0 - 2016/02/03
 
 ##### Added
 - Initial Commit on Github
 
 ## Template
 
-### Version : x.y.z [DD/MMM/YYYY]
+### Version : x.y.z - YYYY/MM/DD
 ##### Features
 ##### Added
 ##### Enhancements
