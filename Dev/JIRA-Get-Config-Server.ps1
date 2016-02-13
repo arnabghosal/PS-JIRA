@@ -1,4 +1,4 @@
-function Get-Config-JIRAServer
+function JIRA-Get-Config-Server
 {
 	[CmdletBinding()]
 	param
@@ -18,12 +18,12 @@ function Get-Config-JIRAServer
 
 	if (-not(Test-Path $Base_Folder))
 	{
-		throw "[$FName] Config Folder Not Found. Set JIRA Server Config using 'Set-Config-JIRAServer'"
+		throw "[$FName] Config Folder Not Found. Set JIRA Server Config using 'JIRA-Set-Config-Server'"
 	}
 
 	if (-not(Test-Path $Config_File))
 	{
-		throw "[$FName] Config File Not Found. Set JIRA Server Config using 'Set-Config-JIRAServer'"
+		throw "[$FName] Config File Not Found. Set JIRA Server Config using 'JIRA-Set-Config-Server'"
 	}
 
 	$XML_File.Load($Config_File)
@@ -38,6 +38,6 @@ function Get-Config-JIRAServer
 	}
 	else
 	{
-		throw "[$FName] JIRA_Link Not Set. Set JIRA Server Config using 'Set-Config-JIRAServer'"
+		throw "[$FName] JIRA_Link Not Set. Set JIRA Server Config using 'JIRA-Set-Config-Server'"
 	}
 }

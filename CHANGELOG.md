@@ -1,14 +1,27 @@
-### Version : 0.1.2 - 2016/02/06
+### Version : 0.1.3 - 2016/02/13
 
 ##### Features
-- Allow for Defining Multiple JIRA Server Config
-- Allow for Listing of all Available JIRA Server Config
+- Retrieve Config for specified JIRA Server
 
 ##### Added
 |Function|Purpose|
 |---|---|
-|`Set-Config-JIRAServer`|Set Custom JIRA Server Config|
-|`List-Config-JIRAServer`|List Available JIRA Server Config|
+|`JIRA-Get-Config-JIRAServer`|Get Custom JIRA Server Config|
+
+##### Enhancements
+- Function names begin with `JIRA-` prefix
+
+### Version : 0.1.2 - 2016/02/06
+
+##### Features
+- Define Multiple JIRA Server Configs
+- List Available JIRA Server Configs
+
+##### Added
+|Function|Purpose|
+|---|---|
+|`JIRA-Set-Config-Server`|Set Custom JIRA Server Config|
+|`JIRA-List-Config-Server`|List Available JIRA Server Config|
 
 ### Version : 0.1.1 - 2016/02/04
 

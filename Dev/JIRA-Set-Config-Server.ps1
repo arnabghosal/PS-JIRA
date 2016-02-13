@@ -1,4 +1,4 @@
-function Set-Config-JIRAServer
+function JIRA-Set-Config-Server
 {
 	[CmdletBinding()]
 	param
@@ -42,7 +42,7 @@ function Set-Config-JIRAServer
 	catch
 	{
 		Remove-Item -Path $Config_File -Force
-		throw "[$FName] Invalid Config File. Set JIRA Server Config using 'Set-Config-JIRAServer'"
+		throw "[$FName] Invalid Config File. Set JIRA Server Config using 'JIRA-Set-Config-Server'"
 	}
 
 	if($Config_XML.Name -eq 'Config')
@@ -66,6 +66,6 @@ function Set-Config-JIRAServer
 	else
 	{
 		Remove-Item -Path $Config_File -Force
-		throw "[$FName] Invalid Config File. Set JIRA Server Config using 'Set-Config-JIRAServer'"
+		throw "[$FName] Invalid Config File. Set JIRA Server Config using 'JIRA-Set-Config-Server'"
 	}
 }
