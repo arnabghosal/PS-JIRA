@@ -1,3 +1,20 @@
+### Version : 0.1.4 - 2016/02/16
+
+##### Features
+- Old Functions deprecated in favor of new functions
+
+##### Added
+|Function|Usage|
+|---|---|
+|``||
+|``||
+
+##### Removed
+|Function|Usage|
+|---|---|
+|``||
+|``||
+
 ### Version : 0.1.3 - 2016/02/13
 
 ##### Features
