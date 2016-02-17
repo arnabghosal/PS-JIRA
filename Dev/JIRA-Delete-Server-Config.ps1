@@ -6,7 +6,7 @@
 		[ValidateNotNullOrEmpty()]
 		[String] $Config = "JIRA-Config"
 	)
-	
+
 	$FName = $MyInvocation.MyCommand
 
 	if(-not (Int-Config-Test -Folder))
@@ -23,6 +23,6 @@
 	else
 	{
 		Write-Verbose "[$FName] Config File Not Found"
-		throw "[$FName] Invalid Config File. Execute 'JIRA-Create-Server-Config'"		
+		throw "[$FName] Invalid Config File. Execute 'JIRA-Create-Server-Config'"
 	}
 }
